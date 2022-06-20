@@ -1,3 +1,4 @@
+#!/bin/bash
 #All commands here are run as root automatically by EnOS.
 
 #Install opendoas
