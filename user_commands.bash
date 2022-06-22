@@ -11,5 +11,5 @@ pacman -U --noconfirm 'https://cdn-mirror.chaotic.cx/chaotic-aur/chaotic-keyring
 #Crude hack to add Chaotic AUR to repo list.
 echo [chaotic-aur] >> /etc/pacman.conf
 echo Include = /etc/pacman.d/chaotic-mirrorlist >> /etc/pacman.conf
-pacman -Syu opendoas-sudo
+pacman -Syu opendoas-sudo | yes
 pacman -Syu pikaur-git
